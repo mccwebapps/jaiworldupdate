@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Jai Alai World - Entries &amp; Results</title>
+	<title>Jai Alai World - Pelota</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- site favicon -->
@@ -95,13 +95,13 @@
 							</div>
 							<div class="menu-area">
 								<ul class="menu">
-									<li><a href="entries-and-results.html" class="active">Entries &amp; Results</a></li>
+									<li><a href="entries-and-results.html">Entries &amp; Results</a></li>
 									<li><a href="player-roster.html">Player Roster</a></li>
 									<li><a href="assets/documents/Pelota_Calendar.pdf" title="Download 2022 Pelota Calendar in PDF (opens a PDF in a new tab)" target="_blank">Calendar</a></li>
 									<li><a href="wager.html">Wager</a></li>
 								</ul>
 								<!--<a href="login.html" class="login"><i class="icofont-user"></i> <span>LOG IN</span> </a>-->
-								<a href="https://www.youtube.com/c/jaialainetwork" target="_blank" rel="noopener" title="The Jai Alai Channel (opens in a new tab)" class="signup"><i class="icofont-youtube-play"></i> <span>WATCH NOW</span></a>
+								<a href="https://www.youtube.com/jaialaichannel" target="_blank" rel="noopener" title="The Jai Alai Channel (opens in a new tab)" class="signup"><i class="icofont-youtube-play"></i> <span>WATCH NOW</span></a>
 
 								<!-- toggle icons -->
 								<div class="header-bar d-lg-none">
@@ -124,47 +124,85 @@
 
 
 
-	<!-- ===========Banner Section start Here========== -->
-	<section class="pageheader-section" style="background-image: url(assets/images/pageheader/bg4.jpg);">
+	<!-- ===========PageHeader Section Start Here========== -->
+	<section class="pageheader-section" style="background-image: url(assets/images/pageheader/bg3.jpg);">
 		<div class="container">
             <div class="section-wrapper text-center text-uppercase">
-                <h2 class="pageheader-title">Entries &amp; Results</h2>
+                <h2 class="pageheader-title">Battle Court</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center mb-0">
                       <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Entries &amp; Results</li>
+                      <li class="breadcrumb-item active" aria-current="page">Battle Court</li>
                     </ol>
                 </nav>
             </div>
 		</div>
 	</section>
+	<!-- ===========PageHeader Section Ends Here========== -->
+
+
+
+	<!-- ===========Banner Section start Here========== -->
+	<section class="banner-section" style="background-image: url(assets/images/pageheader/bg.jpg);">
+		<div class="container">
+			<div class="">
+				<div class="banner-content text-center">
+					<h4 class="fw-normal theme-color mb-4">TODAY BIG MATCH</h4>
+					<img src="assets/images/banner/01.png" alt="banner text thumb" class="mb-4">
+					<p>30 December 2022 - 5:30Pm</p>
+					<a href="https://www.youtube.com/embed/g5eQgEuiFC8" class="default-button reverse-effect" data-rel="lightcase"><span>Watch Now <i class="icofont-play-alt-1"></i></span> </a>
+				</div>
+				<div class="banner-thumb d-flex flex-wrap justify-content-center justify-content-between align-items-center align-items-lg-end">
+					<div class="banner-thumb-img ml-xl-50-none">
+						<a href="team-single.html"><img src="assets/images/banner/02.png" alt="banner-thumb"></a>
+					</div>
+					<div class="banner-thumb-vs">
+						<img src="assets/images/banner/vs.png" alt="banner-thumb">
+					</div>
+					<div class="banner-thumb-img mr-xl-50-none">
+						<a href="team-single.html"><img src="assets/images/banner/03.png" alt="banner-thumb"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- ===========Banner Section Ends Here========== -->
 
 
-
-	<!-- ===========Entries and Results Start Here========== -->
-	<div class="player-section padding-top padding-bottom">
+    <!-- ===========CTA Section start Here========== -->
+	<section class="cta-section match-section padding-top padding-bottom">
 		<div class="container">
-			
-			<div class="section-header">
-                <h2 class="mb-3">Entries &amp; Results</h2>
-			</div> 
-			<div class="text-center">
-                <p class="desc mb-5 text-center">For Jai-Alai results, please call 305.631.4550 or use the calendar below</p>
-				
-				<entries-results :week="{{ json_encode($week) }}" :days="{{ json_encode($days) }}" :week-start-date="{{ json_encode($weekStartDate) }}" :week-end-date="{{ json_encode($weekEndDate) }}"></entries-results>
-				
-				<!-- Download stats button -->
-				<a href="assets/documents/PlayerStats_2022.pdf" role="button" class="default-button" title="Download 2022 Season Stats in PDF (opens a PDF in a new tab)" target="_blank"><span>Last Season Stats <i class="icofont-download"></i></span></a>
-				<!-- End of Download stats button -->		
-			</div>	
+			<div class="cta-wrapper item-layer">
+				<div class="cta-item px-4 px-sm-5 pt-4 pt-sm-5 pt-lg-0" style="background-image: url(assets/images/cta/bg.jpg);">
+					<div class="row align-items-center">
+						<div class="col-lg-4">
+							<div class="cta-content">
+								<h2 class="mb-3"><!--<span class="theme-color text-uppercase">MAGIC CITY PELOTA</span>--> BATTLE COURT</h2>
+								<p class="mb-4">Monday – 1:30pm<br>
+												Tuesday – 1:30pm<br>
+												Wednesday – 1:30pm
+								</p>
+								<p class="theme-color text-uppercase ls-2 bold">Watch at the Magic City Sports Club</p>
+								<a href="https://www.youtube.com/jaialaichannel" target="_blank" rel="noopener" title="The Jai Alai Channel (opens in a new tab)" class="default-button"><span>Watch Now <i class="icofont-youtube-play"></i></span></a>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div class="cta-thumb text-end">
+								<img src="assets/images/team/Ben.png" alt="gamer-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<!-- ===========Entries and Results Ends Here========== -->
+	</section>
+	<!-- ===========CTA Section Ends Here========== -->
 
-	<!-- ================ Footer Section start Here =============== -->
-    <footer class="footer-section">
-        <!--<div class="footer-top">
+
+
+	<!-- ================ footer Section start Here =============== -->
+   <footer class="footer-section">
+        <!-- <div class="footer-top">
             <div class="container">
                 <div class="row g-3 justify-content-center g-lg-0">
                     <div class="col-lg-4 col-sm-6 col-12">
@@ -174,7 +212,7 @@
                                     <img src="assets/images/footer/icons/01.png" alt="Phone-icon">
                                 </div>
                                 <div class="lab-content">
-                                    <span>Phone Number : (305) 649-3000</span>
+                                    <span>Phone Number : +88019 339 702 520</span>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +236,7 @@
                                     <img src="assets/images/footer/icons/03.png" alt="location-icon">
                                 </div>
                                 <div class="lab-content">
-                                    <span>Address : 450 NW 37th Ave, Miami, FL 33125</span>
+                                    <span>Address : 30 North West New York 240</span>
                                 </div>
                             </div>
                         </div>
