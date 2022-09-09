@@ -11,6 +11,15 @@ body {
 .header-section.header-fixed {
     background-color: $mySecondaryColor;
 }
+@media (min-width: 768px) {
+.banner-section {
+    padding: 150px !important;
+}
+}
+
+.menu>li>a {
+    padding: 15px 10px !important;
+}
 .player-item {
     background-color: $myThirdColor;
 }
@@ -755,7 +764,7 @@ tr:hover {
   color: #eaecee !important;
 }
 .text-black {
-  color: #373e43 !important;
+  color: #000000 !important;
 }
 .text-white {
   color: #fff !important;
