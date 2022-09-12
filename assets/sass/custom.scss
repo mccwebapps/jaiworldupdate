@@ -4,6 +4,11 @@ $myMainColor: #080e37;
 $mySecondaryColor: #000000;
 $myThirdColor: #ffffff;
 
+$CestaCyclones: #f0f0f0;
+$ChulaChargers: #8d2eca;
+$ReboteRenegades: #f36e21;
+$WallWarriors: #000000;
+
 body {
     background: $myMainColor;
 }
@@ -26,6 +31,27 @@ body {
 
 .player-item-2 {
     border: 1px solid $myThirdColor;
+}
+
+.cesta-cyclones {
+    background-color: $CestaCyclones;
+	padding: 10px 30px;
+	color: #000000;
+}
+
+.chula-chargers {
+    background-color: $ChulaChargers;
+	padding: 10px 30px;
+}
+
+.rebote-renegades {
+    background-color: $ReboteRenegades;
+	padding: 10px 30px;
+}
+
+.wall-warriors {
+   background-color: $WallWarriors;
+   	padding: 10px 30px;
 }
 
 .footer-section {
@@ -730,12 +756,57 @@ tr:hover {
 */
 
 .gradient-grey {
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: -webkit-linear-gradient(top, rgba(153, 153, 153, 0) 0%, rgba(153, 153, 153, 0.8) 75%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
 }
 .gradient-black {
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-white {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-purple {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-orange {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+
+.gradient-bg-white {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, #f0f0f0 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, #f0f0f0 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, #f0f0f0 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, #f0f0f0 340%);	
+}
+
+.gradient-bg-black {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 340%);	
+}
+
+.gradient-bg-purple {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(141, 46, 202) 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(141, 46, 202) 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(141, 46, 202) 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(141, 46, 202) 340%);	
+}
+
+
+.gradient-bg-orange {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(243, 110, 33) 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(243, 110, 33) 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(243, 110, 33) 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(243, 110, 33) 340%);	
 }
 
 /* Other Colors

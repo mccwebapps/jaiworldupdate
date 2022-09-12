@@ -23,6 +23,27 @@ body {
   border: 1px solid #ffffff;
 }
 
+.cesta-cyclones {
+  background-color: #f0f0f0;
+  padding: 10px 30px;
+  color: #000000;
+}
+
+.chula-chargers {
+  background-color: #8d2eca;
+  padding: 10px 30px;
+}
+
+.rebote-renegades {
+  background-color: #f36e21;
+  padding: 10px 30px;
+}
+
+.wall-warriors {
+  background-color: #000000;
+  padding: 10px 30px;
+}
+
 .footer-section {
   background-color: #000000;
 }
@@ -827,13 +848,56 @@ tr:hover {
 ------------------------------------
 */
 .gradient-grey {
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: -webkit-linear-gradient(top, rgba(153, 153, 153, 0) 0%, rgba(153, 153, 153, 0.8) 75%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
 }
 
 .gradient-black {
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-white {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, white 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-purple {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-orange {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+}
+
+.gradient-bg-white {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, white 100%, #f0f0f0 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, white 100%, #f0f0f0 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, white 100%, #f0f0f0 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, white 100%, #f0f0f0 340%);
+}
+
+.gradient-bg-black {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, white 100%, black 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, white 100%, black 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, white 100%, black 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, white 100%, black 340%);
+}
+
+.gradient-bg-purple {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, white 100%, #8d2eca 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, white 100%, #8d2eca 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, white 100%, #8d2eca 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, white 100%, #8d2eca 340%);
+}
+
+.gradient-bg-orange {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, white 100%, #f36e21 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, white 100%, #f36e21 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, white 100%, #f36e21 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, white 100%, #f36e21 340%);
 }
 
 /* Other Colors
