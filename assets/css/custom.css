@@ -23,6 +23,12 @@ body {
   border: 1px solid #ffffff;
 }
 
+.player-inner::after {
+  background-image: -moz-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+  background-image: -webkit-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+  background-image: -ms-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+}
+
 .cesta-cyclones {
   background-color: #f0f0f0;
   padding: 10px 30px;

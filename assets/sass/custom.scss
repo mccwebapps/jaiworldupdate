@@ -33,6 +33,12 @@ body {
     border: 1px solid $myThirdColor;
 }
 
+.player-inner::after {
+    background-image: -moz-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+    background-image: -webkit-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+    background-image: -ms-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
+}
+
 .cesta-cyclones {
     background-color: $CestaCyclones;
 	padding: 10px 30px;
