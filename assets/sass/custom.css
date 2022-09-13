@@ -22,32 +22,22 @@ body {
   background-image: -ms-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important; }
 
 .cesta-cyclones-bg {
-  background-image: url("../images/team/10.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.cesta-cyclones-bg2 {
-  background-image: url("../images/team/11.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.cesta-cyclones-bg3 {
-  background-image: url("../images/team/12.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.cesta-cyclones-bg4 {
   background-image: url("../images/team/13.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
-.cesta-cyclones-bg5 {
-  background-image: url("../images/team/14.jpg");
+.chula-chargers-bg {
+  background-image: url("../images/team/16.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
-.cesta-cyclones-bg6 {
-  background-image: url("../images/team/15.jpg");
+.rebote-renegades-bg {
+  background-image: url("../images/team/17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.wall-warriors-bg {
+  background-image: url("../images/team/18.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
