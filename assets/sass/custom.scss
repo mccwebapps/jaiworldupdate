@@ -39,6 +39,42 @@ body {
     background-image: -ms-linear-gradient(90deg, #000000 0%, rgba(255, 0, 82, 0) 100%) !important;
 }
 
+.cesta-cyclones-bg {
+	background-image: url('../images/team/10.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cesta-cyclones-bg2 {
+	background-image: url('../images/team/11.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cesta-cyclones-bg3 {
+	background-image: url('../images/team/12.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cesta-cyclones-bg4 {
+	background-image: url('../images/team/13.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cesta-cyclones-bg5 {
+	background-image: url('../images/team/14.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cesta-cyclones-bg6 {
+	background-image: url('../images/team/15.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .cesta-cyclones {
     background-color: $CestaCyclones;
 	padding: 10px 30px;
@@ -520,6 +556,12 @@ tr:hover {
 }
 .larger-text {
   font-size: 25px !important;
+}
+.x-larger-text {
+  font-size: 30px !important;
+}
+.xl-larger-text {
+  font-size: 35px !important;
 }
 .fs-10 {
   font-size: 10px !important;
