@@ -848,6 +848,13 @@ tr:hover {
   background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(243, 110, 33) 340%);	
 }
 
+.gradient-bg-grey {
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(123, 123, 121) 340%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(123, 123, 121) 340%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(123, 123, 121) 340%);
+  background-image: radial-gradient(50% 50%, circle closest-side, rgb(255, 255, 255) 100%, rgb(123, 123, 121) 340%);	
+}
+
 /* Other Colors
 ------------------------------------
 */
