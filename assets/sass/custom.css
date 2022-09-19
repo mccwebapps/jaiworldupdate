@@ -7,6 +7,11 @@ body {
 @media (min-width: 768px) {
   .banner-section {
     padding: 150px !important; } }
+/* Fix for the homepage boxes */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .game-item {
+    height: 430px !important; } }
 .menu > li > a {
   padding: 15px 10px !important; }
 
