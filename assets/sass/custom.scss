@@ -29,6 +29,11 @@ body {
 }
 }
 
+.list-normal ul li {
+	list-style-type: circle;
+	list-style: circle;
+}
+
 .menu>li>a {
     padding: 15px 10px !important;
 }
