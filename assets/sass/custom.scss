@@ -22,6 +22,7 @@ body {
 }
 }
 
+/* Fix for the watch button to show in mobile */
 @media (min-width: 500px) {
 .header-wrapper .menu-area .signup {
     padding: 10px !important;
@@ -38,13 +39,14 @@ body {
     background: #ffffff !important;
 }
 
-/*Not showing, come back later*/
 .menu-area .login:after {
-    bottom: 0 !important;
-    right: -1px !important;
-    width: 2px !important;
-    height: calc(100% - 2px) !important;
-    background: #ffffff !important;
+    bottom: 0;
+    right: -1px;
+    width: 2px;
+    height: calc(100% - 2px);
+	position: absolute;
+    content: "";
+	background: #ffffff;
 }
 
 /* Fix for the homepage boxes */ /* Extra small devices (phones, 600px and down) */
