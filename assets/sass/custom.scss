@@ -16,12 +16,14 @@ body {
 .header-section.header-fixed {
     background-color: $mySecondaryColor;
 }
+
+/* Bring it back if nothing happens
 @media (min-width: 768px) {
 .banner-section {
     padding: 150px !important;
 }
 }
-
+*/
 /* Fix for the watch button to show in mobile */
 @media (min-width: 500px) {
 .header-wrapper .menu-area .signup {
